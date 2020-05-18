@@ -22,6 +22,29 @@
   <!-- main css -->
   <link rel="stylesheet" href="/styles.css">
 
+  <style>
+    /* lato-regular - latin */
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      src: url('fonts/lato-v15-latin-regular.eot');
+      /* IE9 Compat Modes */
+      src: local('Lato Regular'), local('Lato-Regular'),
+        url('fonts/lato-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/lato-v15-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/lato-v15-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('fonts/lato-v15-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/lato-v15-latin-regular.svg#Lato') format('svg');
+      /* Legacy iOS */
+    }
+  </style>
+
+
 
   <!-- navbar -->
   <nav class="navbar">
@@ -79,13 +102,35 @@
 
 
 
+  <section id='about'>
+    <div class="container">
+      <h2 class="heading">ABOUT ME</h2>
+    </div>
+
+    <div class="about-container">
+      <div class="about__img">
+        <img src="images/about.jpg" class="about-image" alt="">
+      </div>
+
+      <div class="about__text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum laboriosam molestias quibusdam
+          asperiores blanditiis reiciendis dolorem, nulla accusantium quis ut aperiam nostrum sunt officia ea temporibus
+          minus error perspiciatis commodi?</p>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatem, corporis pariatur quos
+          asperiores repellendus suscipit labore neque explicabo accusantium laboriosam dolorum dignissimos nisi
+          consequatur illum culpa laborum excepturi officia?
+        </p>
+        <a href="about.html" class="btn">about me</a>
+      </div>
+    </div>
 
 
 
 
 
-
-  <script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
 
 </body>
 

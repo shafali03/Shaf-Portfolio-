@@ -349,6 +349,75 @@ section {
 
 
 /* =========================================
+                About Page
+============================================ */
+
+.about-container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+.about__text {
+  flex: 1 1 20rem;
+  margin: 1em;
+  font-size: 2rem;
+  padding: 1rem;
+  /* max-width: 80%; */
+}
+
+.about__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__text,
+.about-image {
+  max-width: 80%;
+  height: auto;
+}
+
+ .about-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  /* =========================================
+                Page title
+============================================ */
+
+.heading {
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  margin-right: -3px;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #333;
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  width: 10rem;
+  height: 0.8rem;
+  background-color: #0097e6;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2rem;
+}
+
+
+/* =========================================
               Media Queries
 ============================================ */
 
