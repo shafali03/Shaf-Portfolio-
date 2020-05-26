@@ -416,6 +416,36 @@ section {
   border-radius: 2rem;
 }
 
+/*
+================== 
+Footer
+==================
+*/
+
+.footer {
+  padding-bottom: 2rem;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+.footer .social-icons {
+  margin-bottom: 1.5rem;
+}
+
+.footer .social-icon {
+  color: #0097e6;
+}
+
+.footer .social-icons:hover {
+  color: #0068a0;
+}
+
+.footer p {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  color: var(--clr-primary-6);
+}
 
 /* =========================================
               Media Queries
