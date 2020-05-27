@@ -423,14 +423,14 @@ Footer
 */
 
 .footer {
-  padding-bottom: 2rem;
+  padding-bottom: 7rem;
   background-color: black;
   display: grid;
   place-items: center;
 }
 
 .footer .social-icons {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .footer .social-icon {
