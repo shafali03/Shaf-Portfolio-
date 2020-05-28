@@ -570,6 +570,48 @@ Projects
 }
 /*
 ================== 
+Skills
+==================
+*/
+
+/* =========================================
+                Skill page
+============================================ */
+
+.heading__sub {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.fab {
+  font-size: 5rem;
+  padding: 1rem;
+}
+
+.skill-container {
+  height: 80vh;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  margin: 0 1rem;
+}
+
+.skill-icon {
+  flex: 1 1 2rem;
+  margin: 1em;
+}
+
+.content {
+  width: 7rem;
+  padding-top: 15px;
+}
+
+
+
+/*
+================== 
 Footer
 ==================
 */
