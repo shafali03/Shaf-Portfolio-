@@ -40,6 +40,12 @@ body {
   overflow-x: hidden;
 }
 
+body, html {
+  height: 100%;
+}
+
+
+
 html {
   /* overflow: hidden; */
   scrollbar-width: none; /*For Firefox*/
@@ -109,8 +115,6 @@ section {
   padding: 10rem 0;
   background-color: #fff;
 }
-
-
 
 .section {
   padding: 5rem 0;
@@ -304,6 +308,15 @@ section {
   margin-top: 2.25rem;
 }
 
+@media screen and (min-width: 992px) {
+  .hero-img {
+    display: block;
+    position: relative;
+  }
+  .hero-center {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 /* =========================================
                 Hero button
@@ -371,11 +384,15 @@ section {
                 About Page
 ============================================ */
 
+#about {
+   background-color: #fff;
+}
+
 .about-container {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  padding-top: 3rem;
+  padding-top: 8rem;
 }
 
 .about__text {
@@ -383,7 +400,7 @@ section {
   margin: 1em;
   font-size: 2rem;
   padding: 1rem;
-  /* max-width: 80%; */
+  max-width: 80%;
 }
 
 .about__img {
@@ -440,11 +457,21 @@ section {
 Projects
 ===============
 */
+
+.projects {
+  height: 100vh;
+  background-color: #e5e6e4;
+}
  
 .projects-text {
   width: 85vw;
-  max-width: 30rem;
+  /* max-width: 50rem; */
   margin: 0 auto;
+  padding: 2rem;
+}
+
+.projects-text {
+  font-size: 1.5rem;
 }
 .project {
   position: relative;
@@ -541,7 +568,7 @@ Projects
     grid-area: d;
   }
 }
-=======
+/*
 ================== 
 Footer
 ==================
