@@ -444,7 +444,7 @@ background: linear-gradient(#4195a8, #fff);
 }
 
 .container {
-  padding: 5rem;
+  padding: 7rem;
 }
 
 #about {
@@ -689,6 +689,63 @@ ul {
   padding: 0.5rem;
 }
 
+
+
+
+
+/* =========================================
+              Contact pages
+============================================ */
+
+
+
+/* =========================================
+                Contact
+============================================ */
+
+.section-contact {
+  background-color: #e5e6e4;
+  background-size: cover;
+  padding: 40px 0;
+  color: #000;
+  overflow: hidden;
+  font-size: 1.5rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2rem 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 1px 1px #34455e;
+}
+textarea {
+  resize: none;
+  height: 120px;
+}
+
 /*
 ================== 
 Footer
@@ -696,7 +753,6 @@ Footer
 */
 
 .footer {
-  /* padding-bottom: 10rem; */
   padding: 7rem;
   background-color: black;
   display: grid;
@@ -792,7 +848,6 @@ Footer
   }
 
 
-  /* Projects Card */
   .card {
     width: 32rem;
   }
