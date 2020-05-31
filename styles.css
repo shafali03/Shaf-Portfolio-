@@ -383,11 +383,6 @@ background: linear-gradient(#4195a8, #fff);
                 About Page
 ============================================ */
 
-#about {
-  
-}
-
-
 .about-container {
   display: flex;
   align-content: center;
@@ -568,11 +563,22 @@ background: linear-gradient(#EEF0F2,#fff );
     grid-area: d;
   }
 }
+
 /*
-================== 
-Skills
-==================
+========================================
+Projects page
+========================================
 */
+
+.link-btn-projects {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 /* =========================================
                 Skill page
@@ -693,11 +699,6 @@ ul {
 
 
 
-/* =========================================
-              Contact pages
-============================================ */
-
-
 
 /* =========================================
                 Contact
@@ -776,6 +777,7 @@ Footer
   text-transform: capitalize;
   color:#0097e6;
 }
+
 
 /* =========================================
               Media Queries
@@ -856,6 +858,4 @@ Footer
     margin: 2rem;
     transition: transform 0.5s;
   }
-
-
 }
