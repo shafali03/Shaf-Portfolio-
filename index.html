@@ -52,42 +52,49 @@
       <a id="nav-icon"><span></span></a>
     </span>
     <!-- logo -->
-    <img class="logoImg" src="images/" alt="logo">
+    <img class="logoImg" src="images/smlogo.png" alt="logo">
     <ul class="main-nav" id="js-menu">
       <li>
-        <a href="index.html" class="nav-links">Home</a>
+        <a href="#home" class="nav-links">Home</a>
       </li>
       <li>
-        <a href="about.html" class="nav-links">About</a>
+        <a href="#about" class="nav-links">About</a>
       </li>
       <li>
-        <a href="projects.html" class="nav-links">Projects</a>
+        <a href="#projects" class="nav-links">Projects</a>
       </li>
       <li>
         <a href="#skills" class="nav-links">Skills</a>
       </li>
       <li>
-        <a href="contact.html" class="nav-links">Contact</a>
+        <a href="#blog" class="nav-links">Blog</a>
+      </li>
+      <li>
+        <a href="#contact" class="nav-links">Contact</a>
       </li>
     </ul>
   </nav>
 
-  <header class="hero">
+
+
+
+
+  <header class="hero" id="home">
     <div class="section-center hero-center">
       <article class="hero-info">
         <h1>i'm shafique</h1>
         <h4>Front End Developer</h4>
-        <a href="contact.html" class="btn hero-btn">hire me</a>
+        <a href="#contact" class="btn hero-btn">hire me</a>
         <!-- social icons -->
 
         <ul class="social-icons hero-icons">
           <li>
-            <a href="#" class="social-icon">
+            <a href="https://github.com/shafali03" class="social-icon">
               <i class="fab fa-github"></i>
             </a>
           </li>
           <li>
-            <a href="#" class="social-icon">
+            <a href="https://www.linkedin.com/in/shafique-mohammed-b65856101" class="social-icon">
               <i class="fab fa-linkedin"></i>
             </a>
           </li>
@@ -114,6 +121,7 @@
 
   <!-- About section -->
   <section id='about'>
+    <span id="#about"></span>
     <div class="container">
       <h2 class="heading">ABOUT ME</h2>
     </div>
@@ -127,18 +135,21 @@
         <p>
           In the past, I've worked in the pharmaceutical industry. While working in healthcare, I've discovered endless
           opportunities that can be used with programming to transform and improve patients lives after discovery AI
-          technology in
-          hospitals. I'm obsessed with coding, created my first website using HTML, CSS and JavaScript since then I've
-          fallen in
-          love and never looked back.
+          technology in hospitals. I'm obsessed with coding, created my first website using HTML, CSS and JavaScript
+          since then I've fallen in love and never looked back.
         </p>
         <br>
         <p>
-          I'm an enthusiastic front end developer worked as a freelancer before joining
-          Makers. A highly motivated person who has an immense will to learn I'm looking for challenging projects
-          working as front
-          end developer.
+          I'm an enthusiastic front end developer worked as a freelancer before joining Makers. A highly motivated
+          person who has an immense will to learn I'm looking for challenging projects working as front end developer.
         </p>
+        <p>
+          I love creating fun, innovative, accessible and fast website. I spend most of my time coding using HTML, CSS,
+          JavaScript and React. I love learning something new every day. I'm continually learning new skills for my
+          upcoming projects include creating an e-commence site using react for the front end, Strapi headless cms for
+          the back and Stripe API for demo payment.
+        </p>
+
         <a href="about.html" class="btn">about me</a>
       </div>
     </div>
@@ -149,9 +160,10 @@
 
 
 
-    <!-- projects -->
+    <!-- projects  clients-->
 
     <section class="section projects">
+      <span id="#projects"></span>
       <div class="container">
         <h2 class="heading">Projects</h2>
         <h3 class="heading__sub">Clients projects coming soon </h3>
@@ -162,7 +174,16 @@
 
       <div class="section-center projects-center">
 
-        <a href="projects.html" class="project-1">
+        <a href="http://www.tharaaccountants.co.uk/" target="blank" class="project-1">
+          <article class="project">
+            <img src="./images/thara.png" alt="single project" class="project-img" />
+            <div class="project-info">
+              <h4>Thara Accountants</h4>
+            </div>
+          </article>
+        </a>
+
+        <a href="#" class="project-2">
           <article class="project">
             <img src="./images/project-1.jpg" alt="single project" class="project-img" />
             <div class="project-info">
@@ -171,7 +192,7 @@
           </article>
         </a>
 
-        <a href="projects.html" class="project-2">
+        <a href="#" class="project-3">
           <article class="project">
             <img src="./images/project-1.jpg" alt="single project" class="project-img" />
             <div class="project-info">
@@ -180,17 +201,7 @@
           </article>
         </a>
 
-        <a href="projects.html" class="project-3">
-          <article class="project">
-            <img src="./images/project-1.jpg" alt="single project" class="project-img" />
-            <div class="project-info">
-              <h4>Coming Soon</h4>
-            </div>
-          </article>
-        </a>
-
-
-        <a href="projects.html" class="project-4">
+        <a href="#" class="project-4">
           <article class="project">
             <img src="./images/project-1.jpg" alt="single project" class="project-img" />
             <div class="project-info">
@@ -202,142 +213,191 @@
       </div>
     </section>
 
+    <!-- Personal projects -->
 
 
 
-
-
-
-
-
-
-
-    <!-- skills ==========================-->
-    <section id="skills">
+    <section class="section-project" id="projects">
       <div class="container">
-        <h1 class="heading">Skills</h1>
-        <h2 class="heading__sub">Language, library and tools I've work with </h2>
-      </div>
+        <h1 class="heading">Projects</h1>
+        <div class="card-wrapper">
 
-      <div class="skill-container">
-        <div class="skill-icon" title="HTML 5">
-          <img src="icons/html5.png" class="content" alt="">
+          <div class="card">
+            <img src="./images/movies-search-app.png" class="card-img" alt="">
+            <h3>Search Movies App</h3>
+            <p class="description">
+
+            </p>
+            <ul class="link-btn-projects">
+              <li>
+                <a href="https://github.com/shafali03/movies-search" class="btn" target="blank">Github</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="card">
+            <img src="images/cakehouse.jpeg" class="card-img" alt="">
+            <h3>Cake House E-commerce</h3>
+            <p class="description"></p>
+            <ul class="link-btn-projects">
+              <li>
+                <a href="https://github.com/shafali03/cake-house" class="btn" target="blank">Github</a>
+              </li>
+              <!-- <li>
+                  <button class="modal-btn">Modal</button>
+                </li> -->
+            </ul>
+          </div>
+
+          <div class="card">
+            <img src="#" class="card-img" alt="">
+            <h3>Coming Soon</h3>
+            <p class="description"></p>
+            <ul class="link-btn-projects">
+              <li>
+                <a href="#" class="btn" target="blank">Github</a>
+              </li>
+            </ul>
+          </div>
+
         </div>
-
-        <div class="skill-icon" title="CSS 3">
-          <img src="icons/css3.png" class="content" alt="">
-        </div>
-
-        <div class="skill-icon" title="Sass">
-          <img src="icons/sass.png" class="content" alt="">
-        </div>
-
-        <div class="skill-icon" title="JavaScript">
-          <img src=" icons/javascript.png" class="content" alt="">
-        </div>
-
-        <div class="skill-icon" title="React">
-          <img src="icons/react.png" class="content" alt="">
-        </div>
-
-        <div class="skill-icon" title="Postgres SQL">
-          <img src="icons/postgresql.png" class="content" alt="">
-        </div>
-
-        <div class="skill-icon" title="Postman">
-          <img src="icons/postman.png" class="content" alt="">
-        </div>
-
-        <div class="skill-icon" title="Contentful">
-          <img src="icons/contentful.png" class="content" alt="">
-        </div>
-
-        <div class="skill-icon" title="Git">
-          <img src="icons/git.png" class="content" alt="">
-        </div>
-
-        <div class="skill-icon" title="Github">
-          <img src="icons/github.png" class="content" alt="">
-        </div>
-
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section id="blog">
-      <div class="container">
-        <h1 class="heading">Blog</h1>
       </div>
 
 
-      <!-- card -->
-      <div class="card-wrapper">
-        <div class="card">
-          <img src="images/project-1.jpg" class="card-img" alt="">
-          <h2>Career Change</h2>
-          <p class="description">
-            Steve Jobs once famously said “you can’t connect the dots looking forward you can only connect them looking
-            backwards.
-            You have to trust that the dots will somehow connect in the future.” Now I will tell my rollercoaster of a
-            story on the
-            critical points in my life that resulted in me attending the Makers Academy.
-          </p>
-          <ul>
-            <li>
-              <a href="https://medium.com/@shaf01sm/career-change-98cca25bf921" class="btn" target="blank">Read more</a>
-            </li>
-          </ul>
+
+
+      <!-- skills ==========================-->
+      <section id="skills">
+
+
+        <div class="container">
+          <h1 class="heading">Skills</h1>
+          <h2 class="heading__sub">Language, library and tools I've work with </h2>
+        </div>
+
+        <div class="skill-container">
+          <div class="skill-icon" title="HTML 5">
+            <img src="icons/html5.png" class="content" alt="">
+          </div>
+
+          <div class="skill-icon" title="CSS 3">
+            <img src="icons/css3.png" class="content" alt="">
+          </div>
+
+          <div class="skill-icon" title="Sass">
+            <img src="icons/sass.png" class="content" alt="">
+          </div>
+
+          <div class="skill-icon" title="JavaScript">
+            <img src=" icons/javascript.png" class="content" alt="">
+          </div>
+
+          <div class="skill-icon" title="React">
+            <img src="icons/react.png" class="content" alt="">
+          </div>
+
+          <div class="skill-icon" title="Postgres SQL">
+            <img src="icons/postgresql.png" class="content" alt="">
+          </div>
+
+          <div class="skill-icon" title="Postman">
+            <img src="icons/postman.png" class="content" alt="">
+          </div>
+
+          <div class="skill-icon" title="Contentful">
+            <img src="icons/contentful.png" class="content" alt="">
+          </div>
+
+          <div class="skill-icon" title="Git">
+            <img src="icons/git.png" class="content" alt="">
+          </div>
+
+          <div class="skill-icon" title="Github">
+            <img src="icons/github.png" class="content" alt="">
+          </div>
+
+        </div>
+      </section>
+
+
+      <section id="blog">
+        <div class="container">
+          <h1 class="heading">Blog</h1>
+        </div>
+
+        <!-- card -->
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="images/project-1.jpg" class="card-img" alt="">
+            <h2>Career Change</h2>
+            <p class="description">
+              Steve Jobs once famously said “you can’t connect the dots looking forward you can only connect them
+              looking
+              backwards.
+              You have to trust that the dots will somehow connect in the future.” Now I will tell my rollercoaster of a
+              story on the
+              critical points in my life that resulted in me attending the Makers Academy.
+            </p>
+            <ul>
+              <li>
+                <a href="https://medium.com/@shaf01sm/career-change-98cca25bf921" class="btn" target="blank">Read
+                  more</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section class="section-contact" id='contact'>
+        <div class="container">
+          <h1 class="heading">Contact</h1>
+          <h2 class="heading__sub">Please get in touch if you like a chat </h2>
         </div>
 
 
-
-      </div>
-
-
-    </section>
+        <form action="https://formspree.io/shaf03sm@gmail.com" class="contact-form" method="POST">
 
 
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Required" required>
+
+          <label for="email">Emails Address</label>
+          <input type="email" id="email" name="_replyto" placeholder="Required" required>
+
+          <label for="message">Message</label>
+          <textarea name="name" id="message" placeholder="Leave a message"></textarea>
+
+          <button type="submit" class="contact-form-btn btn" value="Send">Send</button>
+        </form>
+      </section>
 
 
 
 
+      <footer class="footer">
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.linkedin.com target=" target="blank" aria-label="linkedin profile"" class="
+              social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com" target="blank" aria-label="github profile" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
 
+        <p>&copy; <span id="date"></span> Shafique Mohammed. all rights reserved</p>
+      </footer>
 
-
-
-
-    <footer class="footer">
-      <!-- social icons -->
-      <ul class="social-icons">
-        <li>
-          <a href="https://www.linkedin.com" class="social-icon">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.github.com" class="social-icon">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-      </ul>
-
-      <p>&copy; Shafique Mohammed. all rights reserved</p>
-    </footer>
-
-    <script src="./js/main.js"></script>
+      <script src="./js/main.js"></script>
 
 </body>
 

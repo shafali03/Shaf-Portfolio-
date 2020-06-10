@@ -45,3 +45,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
+/* =========================================
+                set date
+============================================ */
+date.innerHTML = new Date().getFullYear();

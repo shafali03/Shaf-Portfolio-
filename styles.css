@@ -35,8 +35,9 @@
 body {
   /* height: 100vh; */
   font-family: "Lato", sans-serif;
-  font-size: 10px;
+  font-size: 16px;
   overflow-x: hidden;
+  
 }
 
 body, html {
@@ -75,19 +76,23 @@ h2 {
   font-size: 2rem;
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 h4 {
   font-size: 1.2rem;
 }
-p {
-  margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
-}
 
 p {
+  margin-bottom: 2rem;
+  color: var(--clr-grey-5);
   font-weight: 100;
+  font-size: 20px;
 }
+
+/* p {
+  font-weight: 100;
+  font-size: 1.5rem;
+} */
 
 a {
   text-decoration: none;
@@ -128,6 +133,12 @@ html {
     width: 95vw;
   }
 }
+
+.logoImg {
+  width: 1rem;
+  height: 1rem;
+}
+
 
 /* =========================================
                 Navigation icon
@@ -273,7 +284,7 @@ html {
 ============================================ */
 
 .logoImg {
-  width: 17rem;
+  width: 8rem;
   height: auto;
 }
 /* =========================================
@@ -319,7 +330,7 @@ background: linear-gradient(#4195a8, #fff);
 /* =========================================
                 Hero button
 ============================================ */
-
+.modal-btn,
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
@@ -337,6 +348,7 @@ background: linear-gradient(#4195a8, #fff);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
+.modal-btn:hover,
 .btn:hover {
   color: var(--clr-primary-1);
   background: var(--clr-primary-7);
@@ -382,11 +394,6 @@ background: linear-gradient(#4195a8, #fff);
 /* =========================================
                 About Page
 ============================================ */
-
-#about {
-  
-}
-
 
 .about-container {
   display: flex;
@@ -460,9 +467,8 @@ Projects
 .projects {
   min-height: 90vh;
 background: linear-gradient(#EEF0F2,#fff );
-
 }
- 
+
 .projects-text {
   width: 85vw;
   /* max-width: 50rem; */
@@ -473,12 +479,14 @@ background: linear-gradient(#EEF0F2,#fff );
 .projects-text {
   font-size: 1.5rem;
 }
+
 .project {
   position: relative;
   background: var(--clr-primary-5);
   border-radius: var(--radius);
   margin-bottom: 2rem;
 }
+
 .project-info {
   text-align: center;
   color: var(--clr-white);
@@ -491,13 +499,16 @@ background: linear-gradient(#EEF0F2,#fff );
   transition: var(--transition);
   opacity: 0;
 }
+
 .project-info p {
   text-transform: capitalize;
   color: var(--clr-white);
 }
+
 .project:hover .project-info {
   opacity: 1;
 }
+
 .project-img {
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -506,9 +517,11 @@ background: linear-gradient(#EEF0F2,#fff );
   -o-object-fit: cover;
   object-fit: cover;
 }
+
 .project:hover .project-img {
   opacity: 0.1;
 }
+
 .project::after {
   content: "";
   position: absolute;
@@ -522,11 +535,13 @@ background: linear-gradient(#EEF0F2,#fff );
   transition: var(--transition);
   opacity: 0;
 }
+
 .project:hover::after {
   opacity: 1;
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
 }
+
 @media screen and (min-width: 676px) {
   .projects-center {
     display: grid;
@@ -536,11 +551,13 @@ background: linear-gradient(#EEF0F2,#fff );
     column-gap: 2rem;
   }
 }
+
 @media screen and (min-width: 992px) {
   .projects-center {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 @media screen and (min-width: 1170px) {
   .projects-center {
     grid-template-rows: 200px 200px;
@@ -568,15 +585,32 @@ background: linear-gradient(#EEF0F2,#fff );
     grid-area: d;
   }
 }
+
+
 /*
-================== 
-Skills
-==================
+========================================
+Projects page
+========================================
 */
+
+.link-btn-projects {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 /* =========================================
                 Skill page
 ============================================ */
+#skills {
+  background: linear-gradient(#EEF0F2,#fff );
+
+}
+
 
 .heading__sub {
   text-align: center;
@@ -693,11 +727,6 @@ ul {
 
 
 
-/* =========================================
-              Contact pages
-============================================ */
-
-
 
 /* =========================================
                 Contact
@@ -777,6 +806,7 @@ Footer
   color:#0097e6;
 }
 
+
 /* =========================================
               Media Queries
 ============================================ */
@@ -791,7 +821,7 @@ Footer
     font-size: 2.5rem;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
   h4 {
     font-size: 2rem;
@@ -856,6 +886,4 @@ Footer
     margin: 2rem;
     transition: transform 0.5s;
   }
-
-
 }
